@@ -2,10 +2,11 @@
     position: relative;
     box-sizing: content-box;
     color: antiquewhite;
+    
   
 }
 body{
-  display: block;
+    display: block;
    justify-content: center;
     width: 450px;
     text-align: center;

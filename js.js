@@ -12,7 +12,7 @@
 //     }
 // }
 
-var countDownDate = new Date("oct 1,2022 02:50:00").getTime();
+var countDownDate = new Date("oct 2,2022 11:00:00").getTime();
 var x = setInterval(function(){
     var now = new Date().getTime();
     var distance = countDownDate-now;

@@ -127,9 +127,3 @@ function nextDate(dayIndex){
 
 
 
-
-
-
-
-
-

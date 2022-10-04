@@ -52,6 +52,11 @@ var x = setInterval(function(){
 else
 {
   console.log("me")
+  function nextDate(dayIndex){
+  var today = new Date();
+ today.setDate(today.getDate()+(dayIndex-1-today.getDay()+7)%7+1);
+ return today;
+}
   
 var sundayDt=nextDate(0).toLocaleString();
 var nextsun = `${sundayDt.slice(0,10)} 11:30:00`
@@ -93,11 +98,7 @@ var x = setInterval(function(){
 },1000);
 }
 
-function nextDate(dayIndex){
-  var today = new Date();
- today.setDate(today.getDate()+(dayIndex-1-today.getDay()+7)%7+1);
- return today;
-}
+
 // var countDownDate = new Date("oct 1,2022 01:28:00").getTime();
 // var x = setInterval(function(){
 //     var now = new Date().getTime();

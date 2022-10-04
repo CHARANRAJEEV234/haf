@@ -38,11 +38,11 @@ var x = setInterval(function(){
     document.getElementById("minutes").innerHTML=minutes;
     document.getElementById("seconds").innerHTML=seconds;
     document.getElementById("dateShow").innerHTML=`0${today.getDate()}/${today.getMonth()+1}/${today.getFullYear()} 11:30:00`;
-  if(distance<=0){
-    clearInterval(x);
-   var c =document.getElementById('demo').innerHTML='<iframe width="100%" height="315" src="https://www.youtube.com/embed/dq-W7cLAuFU"></iframe>';
-    document.getElementById('info').innerText="Today Radio Off It will opens on tommarow 12:00 AM"
-  }
+//   if(distance<=0){
+//     clearInterval(x);
+//    var c =document.getElementById('demo').innerHTML='<iframe width="100%" height="315" src="https://www.youtube.com/embed/dq-W7cLAuFU"></iframe>';
+//     document.getElementById('info').innerText="Today Radio Off It will opens on tommarow 12:00 AM"
+//   }
 
 
 },1000);
@@ -77,12 +77,12 @@ var x = setInterval(function(){
       console.log(parseInt(nextsun.substring(3,5)))
     document.getElementById("dateShow").innerHTML=`${nextsun.substring(3,5)}/${nextsun.substring(0,2)}/${nextsun.substring(6,10)}`;
     }
-  if(distance<=0){
-    clearInterval(x);
-   var c =document.getElementById('demo').innerHTML='<iframe width="100%" height="315" src="https://www.youtube.com/embed/dq-W7cLAuFU"></iframe>';
+//   if(distance<=0){
+//     clearInterval(x);
+//    var c =document.getElementById('demo').innerHTML='<iframe width="100%" height="315" src="https://www.youtube.com/embed/dq-W7cLAuFU"></iframe>';
     
   
-    document.getElementById('info').innerText="Today Radio Off It will opens on tommarow"
+//     document.getElementById('info').innerText="Today Radio Off It will opens on tommarow"
 
                                                                                                                                                                                 
 

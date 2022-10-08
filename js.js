@@ -5,7 +5,7 @@ var weekdayName = arrayOfWeekdays[weekdayNumber]
 console.log(weekdayName)
 if(weekdayName=="Sunday"){
   var today = new Date();
-   var day=`${today.getMonth()+1}/${today.getDate()}/${today.getFullYear()} 11:30:00`
+   var day=`${today.getMonth()+1}/${today.getDate()}/${today.getFullYear()} 11:15:00`
    console.log(day);
 var countDownDate = new Date(day).getTime();
 var x = setInterval(function(){
@@ -19,7 +19,7 @@ var x = setInterval(function(){
     document.getElementById("hours").innerHTML=hours;
     document.getElementById("minutes").innerHTML=minutes;
     document.getElementById("seconds").innerHTML=seconds;
-    document.getElementById("dateShow").innerHTML=`0${today.getDate()}/${today.getMonth()+1}/${today.getFullYear()} 11:30:00`;
+    document.getElementById("dateShow").innerHTML=`0${today.getDate()}/${today.getMonth()+1}/${today.getFullYear()} 11:15:00`;
   if(distance<=0){
     clearInterval(x);
    var c =document.getElementById('demo').innerHTML='<iframe width="100%" height="315" src="https://www.youtube.com/embed/7yxuevxFF8w"></iframe>';
@@ -38,7 +38,7 @@ else
 }
   
 var sundayDt=nextDate(0).toLocaleString();
-   var countDownDate = new Date(`${nextDate(0).getMonth()+1}/${nextDate(0).getDate()}/${nextDate(0).getFullYear()},11:30:00`).getTime();
+   var countDownDate = new Date(`${nextDate(0).getMonth()+1}/${nextDate(0).getDate()}/${nextDate(0).getFullYear()},11:15:00`).getTime();
 
 var x = setInterval(function(){
     var now = new Date().getTime();
@@ -52,7 +52,7 @@ var x = setInterval(function(){
     document.getElementById("hours").innerHTML=hours;
     document.getElementById("minutes").innerHTML=minutes;
     document.getElementById("seconds").innerHTML=seconds;
-      document.getElementById("dateShow").innerHTML=`${nextDate(0).getDate()}/${nextDate(0).getMonth()+1}/${nextDate(0).getFullYear()} 11:30:00`
+      document.getElementById("dateShow").innerHTML=`${nextDate(0).getDate()}/${nextDate(0).getMonth()+1}/${nextDate(0).getFullYear()} 11:15:00`
 
 //     if(parseInt(nextsun.substring(3,5))<10){
 //       console.log(parseInt(nextsun.substring(3,5)))

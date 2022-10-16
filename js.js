@@ -19,7 +19,7 @@ var x = setInterval(function(){
     document.getElementById("hours").innerHTML=hours;
     document.getElementById("minutes").innerHTML=minutes;
     document.getElementById("seconds").innerHTML=seconds;
-    document.getElementById("dateShow").innerHTML=`${today.getDate()}/${today.getMonth()+1}/${today.getFullYear()} 11:15:00`;
+    document.getElementById("dateShow").innerHTML=`${today.getDate()}/${today.getMonth()+1}/${today.getFullYear()} 11:15 AM`;
   if(distance<=0){
     clearInterval(x);
    var c =document.getElementById('demo').innerHTML='<iframe width="100%" height="315" src="https://www.youtube.com/embed/iOW24yHDa4k"></iframe>';
@@ -52,7 +52,7 @@ var x = setInterval(function(){
     document.getElementById("hours").innerHTML=hours;
     document.getElementById("minutes").innerHTML=minutes;
     document.getElementById("seconds").innerHTML=seconds;
-      document.getElementById("dateShow").innerHTML=`${nextDate(0).getDate()}/${nextDate(0).getMonth()+1}/${nextDate(0).getFullYear()} 11:15:00`
+      document.getElementById("dateShow").innerHTML=`${nextDate(0).getDate()}/${nextDate(0).getMonth()+1}/${nextDate(0).getFullYear()} 11:15 AM`
 
 //     if(parseInt(nextsun.substring(3,5))<10){
 //       console.log(parseInt(nextsun.substring(3,5)))

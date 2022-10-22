@@ -171,5 +171,5 @@ function setUpdate(){
 
         curr_time.textContent = currentMinutes + ":" + currentSeconds;
         total_duration.textContent = durationMinutes + ":" + durationMinutes;
-    }
+    } 
 }

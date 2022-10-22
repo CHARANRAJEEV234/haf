@@ -30,7 +30,7 @@ body{
     width: 90px;
     border: 2px solid #fff;
     background-size: cover;
-    background-image: url('./images/logo.jpg');
+    background-image: url('logo.jpg');
     background-position: center;
     border-radius: 50%;
     -moz-box-shadow: 0px 6px 5px #ccc;

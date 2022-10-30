@@ -26,7 +26,7 @@ var x = setInterval(function(){
     document.body.innerHTML=`<div class="details">
     <div id="info" style="width:500px"></div>
 <div id="demo"></div>`
-   var c =document.getElementById('demo').innerHTML='<iframe width="100%" height="315" fullscreen src="https://www.youtube.com/embed/iOW24yHDa4k"></iframe>';
+   var c =document.getElementById('demo').innerHTML='<iframe width="100%" height="315" fullscreen src="https://www.youtube.com/embed/eLauWAh4bG4"></iframe>';
     document.getElementById('info').innerText="Today Radio Off It will opens on tommarow 12:00 AM"
   }
 // <iframe width="853" height="480" src="https://www.youtube.com/embed/iOW24yHDa4k"></iframe>

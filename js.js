@@ -1,9 +1,9 @@
-var arrayOfWeekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+var arrayOfWeekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 var dateObj = new Date()
 var weekdayNumber = dateObj.getDay()
 var weekdayName = arrayOfWeekdays[weekdayNumber]
 console.log(weekdayName)
-if(weekdayName=="Sunday"){
+if(weekdayName=="Friday"){
   var today = new Date();
    var day=`${today.getMonth()+1}/${today.getDate()}/${today.getFullYear()} 11:15:00`
    console.log(day);
